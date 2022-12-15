@@ -1,0 +1,7 @@
+@prefix bcfowl: <http://lbd.arch.rwth-aachen.de/bcfOWL#> .
+
+<http://localhost:3000/architect/82ee8d4a-5ba4-42a6-9811-a1dac4d5b862> a bcfowl:TopicState ;
+        bcfowl:hasTopic <http://localhost:3000/mep-engineer/8424cd01-b779-4927-ae23-b16e335b265f> ;
+        bcfowl:hasCreationAuthor <http://localhost:3000/architect/profile#me> ;
+        bcfowl:hasTopicStatus    <http://localhost:3000/project-manager/287a7161-2aa0-4256-bc5a-19ed86711f98#ExtensionStatusClosed> ;
+        bcfowl:hasAssignedTo <http://localhost:3000/mep-engineer/profile/card#me> .

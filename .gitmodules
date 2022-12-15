@@ -1,0 +1,4 @@
+[submodule "solid-bcf-middleware"]
+	path = solid-bcf-middleware
+	url = https://github.com/OlliSchu/solid-bcf-middleware.git
+	branch = aei-submission

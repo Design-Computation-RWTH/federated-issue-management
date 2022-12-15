@@ -1,0 +1,9 @@
+<http://localhost:3000/mep-engineer/.acl#owner> a <http://www.w3.org/ns/auth/acl#Authorization>;
+    <http://www.w3.org/ns/auth/acl#agent> <http://localhost:3000/mep-engineer/profile/card#me>, <mailto:mep-engineer@example.org>;
+    <http://www.w3.org/ns/auth/acl#mode> <http://www.w3.org/ns/auth/acl#Read>, <http://www.w3.org/ns/auth/acl#Write>, <http://www.w3.org/ns/auth/acl#Control>;
+    <http://www.w3.org/ns/auth/acl#accessTo> <http://localhost:3000/mep-engineer/6184188d-85af-4813-9112-2db604348819>;
+    <http://www.w3.org/ns/auth/acl#default> <http://localhost:3000/mep-engineer/6184188d-85af-4813-9112-2db604348819>.
+<#167111284835207789353675593347> a <http://www.w3.org/ns/auth/acl#Authorization>;
+    <http://www.w3.org/ns/auth/acl#mode> <http://www.w3.org/ns/auth/acl#Read>, <http://www.w3.org/ns/auth/acl#Append>;
+    <http://www.w3.org/ns/auth/acl#accessTo> <http://localhost:3000/mep-engineer/6184188d-85af-4813-9112-2db604348819>;
+    <http://www.w3.org/ns/auth/acl#agentClass> <http://xmlns.com/foaf/0.1/Agent>.
