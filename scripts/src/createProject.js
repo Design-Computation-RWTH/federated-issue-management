@@ -64,7 +64,7 @@ async function createProject(user, p) {
         const p = path.join(__dirname, item.path);
 
         let mediaType = mime.lookup(p)
-        const dsMetadata = [created]
+        const dsMetadata = []
 
         if (item.datasetMetadata) {
             for (const prop of Object.keys(item.datasetMetadata)) {
@@ -79,7 +79,7 @@ async function createProject(user, p) {
         const distMetadata = [{
             predicate: DCAT.mediaType,
             object: `https://www.iana.org/assignments/media-types/${mediaType}`
-        }, created]
+        }]
 
         if (item.distributionMetadata) {
             for (const prop of Object.keys(item.distributionMetadata)) {

@@ -1,8 +1,0 @@
-<http://localhost:3000/architect/45bac79b-3912-46e8-ac5e-9946b2ccf4c9> a <http://www.w3.org/ns/dcat#Catalog>, <http://www.w3.org/ns/dcat#Dataset>;
-    <http://purl.org/dc/terms/created> "2022-12-16T11:29:40.482Z";
-    <http://www.w3.org/ns/dcat#keyword> "Issue Management";
-    <http://www.w3.org/ns/dcat#distribution> <http://localhost:3000/architect/82ee8d4a-5ba4-42a6-9811-a1dac4d5b862>.
-<http://localhost:3000/architect/82ee8d4a-5ba4-42a6-9811-a1dac4d5b862> <http://purl.org/dc/terms/created> "2022-12-16T11:29:40.482Z";
-    <http://www.w3.org/ns/dcat#downloadURL> <http://localhost:3000/architect/82ee8d4a-5ba4-42a6-9811-a1dac4d5b862>;
-    <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/text/turtle>;
-    <http://rdfs.org/ns/void#vocabulary> <http://lbd.arch.rwth-aachen.de/bcfOWL#>.
