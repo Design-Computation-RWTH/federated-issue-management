@@ -14,7 +14,7 @@ The following pods have been created:
 Each pod contains a "project access point" in the form of a recursive DCAT Catalog: every access point "contains" the other two, allowing discovery of the other project participants.
 
 Run the vault configuration in 2 separate terminals:
-* /vault/fuseki: ./fuseki-server
+* /vault/fuseki: ./fuseki-server (see [here](https://github.com/Design-Computation-RWTH/HowTo-Fuseki)) for instructions.
 * /vault/solid: 
   * npm install (you need to have npm and NodeJS installed)
   * npm run start:file

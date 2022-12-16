@@ -4,4 +4,6 @@
         bcfowl:hasTopic <http://localhost:3000/mep-engineer/8424cd01-b779-4927-ae23-b16e335b265f> ;
         bcfowl:hasCreationAuthor <http://localhost:3000/mep-engineer/profile#me> ;
         bcfowl:hasTopicStatus   <http://localhost:3000/project-manager/287a7161-2aa0-4256-bc5a-19ed86711f98#ExtensionStatusOpen> ;
-        bcfowl:hasAssignedTo <http://localhost:3000/architect/profile/card#me> .
+        bcfowl:hasAssignedTo <http://localhost:3000/architect/profile/card#me> ;
+        bcfowl:hasTitle "Please check this opening" ;
+        bcfowl:hasTopicType <http://localhost:3000/project-manager/287a7161-2aa0-4256-bc5a-19ed86711f98#OpeningsAndRecesses> .

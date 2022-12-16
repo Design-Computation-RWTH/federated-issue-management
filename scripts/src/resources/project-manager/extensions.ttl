@@ -1,8 +1,11 @@
 @prefix bcfowl: <http://lbd.arch.rwth-aachen.de/bcfOWL#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<#ExtensionStatusOpen> a bcfowl:ExtensionStatus ;
-    rdfs:label "Open" .
+<#ExtensionStatusOpen> a bcfowl:TopicStatus ;
+rdfs:label "Open" .
 
-<#ExtensionStatusClosed> a bcfowl:ExtensionStatus ;
-    rdfs:label "Closed" .
+<#ExtensionStatusClosed> a bcfowl:TopicStatus ;
+rdfs:label "Closed" .
+
+<#OpeningsAndRecesses> a bcfowl:TopicType ;
+rdfs:label "Openings and recesses" .
