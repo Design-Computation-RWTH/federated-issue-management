@@ -45,8 +45,7 @@ Response (JSON-LD):
     "type": "http://lbd.arch.rwth-aachen.de/bcfOWL#TopicState",
     "modified_author": "http://localhost:3000/architect/profile#me",
     "modified_date": "2022-12-15T11:29:43.792Z",
-    "guid": "8424cd01-b779-4927-ae23-b16e335b265",
-        "@context": {
+    "@context": {
         "guid": "http://purl.org/dc/terms/identifier",
         "creation_author": {
             "@id": "http://lbd.arch.rwth-aachen.de/bcfOWL#hasCreationAuthor",
@@ -80,7 +79,9 @@ Response (JSON-LD):
         "labels": "http://www.w3.org/2000/01/rdf-schema#label",
         "creation_date": "http://purl.org/dc/terms/created",
         "modified_date": "http://purl.org/dc/terms/modified"
-    }
+    },
+    "guid": "8424cd01-b779-4927-ae23-b16e335b265"
+}
 ```
 
 The /scripts folder contains references to create accounts on the Pod and upload datasets conforming the the ConSolid data structure. It is not needed to carry out this proof-of-concept.
