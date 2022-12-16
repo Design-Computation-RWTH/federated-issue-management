@@ -36,6 +36,7 @@ GET http://localhost:3080/bcf/3.0/projects/9ea20d1d-387b-4fb5-8962-f014a79e9d44/
 
 Response (JSON-LD): 
 {
+      "guid": "8424cd01-b779-4927-ae23-b16e335b265",
     "assigned_to": "http://localhost:3000/architect/profile/card#me",
     "creation_author": "http://localhost:3000/mep-engineer/profile#me",
     "title": "Please check this opening",
@@ -79,8 +80,7 @@ Response (JSON-LD):
         "labels": "http://www.w3.org/2000/01/rdf-schema#label",
         "creation_date": "http://purl.org/dc/terms/created",
         "modified_date": "http://purl.org/dc/terms/modified"
-    },
-    "guid": "8424cd01-b779-4927-ae23-b16e335b265"
+    }
 }
 ```
 
