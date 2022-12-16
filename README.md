@@ -31,7 +31,6 @@ Run the middleware with the following commands
 
 Test it out in Postman to see how it works! The response is a JSON-LD document which contains the specified keys for a BCF Topic, but also the context that keeps track of the original semantics in bcfOWL. This repository contains a [Postman](https://www.postman.com/) Collection and Environment to get you started with authentication to a Solid Community Server. Note that the Web version of Postman will not support requests to localhost (i.e., you need to have the Desktop application installed and running).
 
-
 ```
 GET http://localhost:3080/bcf/3.0/projects/9ea20d1d-387b-4fb5-8962-f014a79e9d44/topics/8424cd01-b779-4927-ae23-b16e335b265
 
@@ -83,3 +82,5 @@ Response (JSON-LD):
         "modified_date": "http://purl.org/dc/terms/modified"
     }
 ```
+
+The /scripts folder contains references to create accounts on the Pod and upload datasets conforming the the ConSolid data structure. It is not needed to carry out this proof-of-concept.
