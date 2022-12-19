@@ -107,6 +107,10 @@ If authenticated well, the server responds with the following JSON-LD document:
 
 If referring to this work, please cite the following publication: 
 ```
-
-
+@misc {werbrouckEnabling2022,
+    title = {A Generic Framework for Federated CDEs applied to Issue Management},
+    year = {2022},
+    author = {Werbrouck, Jeroen and Schulz, Oliver and Oraskari, Jyrki and Mannens, Erik and Pauwels, Pieter and Beetz, Jakob},
+    note = {Under review},
+}
 ``` 
