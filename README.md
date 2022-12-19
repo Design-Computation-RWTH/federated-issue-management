@@ -36,14 +36,13 @@ GET http://localhost:3080/bcf/3.0/projects/9ea20d1d-387b-4fb5-8962-f014a79e9d44/
 
 Response (JSON-LD): 
 {
-      "guid": "8424cd01-b779-4927-ae23-b16e335b265",
+    "guid": "8424cd01-b779-4927-ae23-b16e335b265",
     "assigned_to": "http://localhost:3000/architect/profile/card#me",
     "creation_author": "http://localhost:3000/mep-engineer/profile#me",
     "title": "Please check this opening",
     "topic_status": "http://localhost:3000/project-manager/287a7161-2aa0-4256-bc5a-19ed86711f98#ExtensionStatusOpen",
     "topic_type": "http://localhost:3000/project-manager/287a7161-2aa0-4256-bc5a-19ed86711f98#OpeningsAndRecesses",
     "creation_date": "2022-12-11T11:29:43.792Z",
-    "type": "http://lbd.arch.rwth-aachen.de/bcfOWL#TopicState",
     "modified_author": "http://localhost:3000/architect/profile#me",
     "modified_date": "2022-12-15T11:29:43.792Z",
     "@context": {
@@ -58,10 +57,6 @@ Response (JSON-LD):
         },
         "topic_status": {
             "@id": "http://lbd.arch.rwth-aachen.de/bcfOWL#hasTopicStatus",
-            "@type": "@id"
-        },
-        "type": {
-            "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
             "@type": "@id"
         },
         "topic": {
