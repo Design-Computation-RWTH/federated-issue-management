@@ -1,3 +1,7 @@
+
+fuseki/
+SolidCommunity_Fuseki/
+
 # Logs
 logs
 *.log
@@ -124,6 +128,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
-fuseki
-.SolidCommunity_Fuseki
