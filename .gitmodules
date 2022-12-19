@@ -2,3 +2,6 @@
 	path = solid-bcf-middleware
 	url = https://github.com/OlliSchu/solid-bcf-middleware.git
 	branch = aei-submission
+[submodule "SolidCommunity_Fuseki"]
+	path = SolidCommunity_Fuseki
+	url = https://github.com/LBD-Hackers/SolidCommunity_Fuseki

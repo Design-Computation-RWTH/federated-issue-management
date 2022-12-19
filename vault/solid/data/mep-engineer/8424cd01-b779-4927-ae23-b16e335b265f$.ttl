@@ -1,5 +1,0 @@
-@prefix bcfowl: <http://lbd.arch.rwth-aachen.de/bcfOWL#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-
-<http://localhost:3000/mep-engineer/8424cd01-b779-4927-ae23-b16e335b265f> a bcfowl:Topic ;
-    dcterms:identifier "8424cd01-b779-4927-ae23-b16e335b265".

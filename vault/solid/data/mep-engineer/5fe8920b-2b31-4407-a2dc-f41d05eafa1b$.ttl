@@ -1,7 +1,0 @@
-<http://localhost:3000/mep-engineer/5fe8920b-2b31-4407-a2dc-f41d05eafa1b> a <http://www.w3.org/ns/dcat#Catalog>, <http://www.w3.org/ns/dcat#Dataset>;
-    <http://www.w3.org/ns/dcat#keyword> "Issue Management";
-    <http://purl.org/dc/terms/created> "2022-12-11T11:29:43.792Z";
-    <http://www.w3.org/ns/dcat#distribution> <http://localhost:3000/mep-engineer/6184188d-85af-4813-9112-2db604348819>.
-<http://localhost:3000/mep-engineer/6184188d-85af-4813-9112-2db604348819> <http://www.w3.org/ns/dcat#downloadURL> <http://localhost:3000/mep-engineer/6184188d-85af-4813-9112-2db604348819>;
-    <http://www.w3.org/ns/dcat#mediaType> <https://www.iana.org/assignments/media-types/text/turtle>;
-    <http://rdfs.org/ns/void#vocabulary> <http://lbd.arch.rwth-aachen.de/bcfOWL#>.
