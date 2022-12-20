@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "1ae8b200-f02b-4f83-9956-3faa865531a1",
+		"_postman_id": "6e630964-454b-4b99-889d-739b9ddafdd7",
 		"name": "BCFsolid",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "4237461"
@@ -29,7 +29,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"{{USERNAME}}\",\r\n    \"password\": \"{{PASSWORD}}\",\r\n    \"name\": \"{{NAME}}\"\r\n}",
+							"raw": "{\r\n    \"email\": \"{{EMAIL}}\",\r\n    \"password\": \"{{PASSWORD}}\",\r\n    \"name\": \"{{NAME}}\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -119,6 +119,16 @@
 		{
 			"name": "GET Topic (solid-bcf-middleware)",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{SOLID_ACCESS_TOKEN}}",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -128,14 +138,19 @@
 					}
 				],
 				"url": {
-					"raw": "localhost:3080/template/get-request",
+					"raw": "http://localhost:3080/bcf/3.0/projects/9ea20d1d-387b-4fb5-8962-f014a79e9d44/topics/8424cd01-b779-4927-ae23-b16e335b265",
+					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3080",
 					"path": [
-						"template",
-						"get-request"
+						"bcf",
+						"3.0",
+						"projects",
+						"9ea20d1d-387b-4fb5-8962-f014a79e9d44",
+						"topics",
+						"8424cd01-b779-4927-ae23-b16e335b265"
 					]
 				}
 			},

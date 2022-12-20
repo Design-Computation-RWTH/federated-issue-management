@@ -23,6 +23,8 @@ To provide a SPARQL endpoint for the entire Pod, a Fuseki triple store needs to 
   * Every configuration contains a commented-out triple `<dataset> # tdb2:unionDefaultGraph true . `Remove the `#` sign to activate this triple in the configurations.
   * Run the server with `./fuseki-server`.
 
+To run Fuseki, it is necessary to have Java installed. 
+
 ## Running the demo
 ### Create the data
 The folder `./scripts` contains scripts to bootstrap the demo onto the vaults. Make sure the Solid server and a Fuseki instance are running. To run the scripts, however, an initial account needs to be created manually. Go to `http://localhost:3000/setup/` (3000 is the default port for the Solid Server) and tick the following checkboxes: 
@@ -54,11 +56,17 @@ Run the middleware with the following commands
 
 Test it out in Postman to see how it works! The response is a JSON-LD document which contains the specified keys for a BCF Topic, but also the context that keeps track of the original semantics in bcfOWL. This repository contains a [Postman](https://www.postman.com/) Collection and Environment to get you started with authentication to a Solid Community Server. Note that the Web version of Postman will not support requests to localhost (i.e., you need to have the Desktop application installed and running).
 
+* Import the collection `/postman/BCFsolid.postman_collection.json` and the environment `/postman/Template Environment.postman_environment` into Postman.
+* Make sure the template environment is active.
+* (Postman) Execute BCFsolid/SolidAuth/Send Credentials
+* (Postman) Execute BCFsolid/SolidAuth/Get Token
+* (Postman) Execute BCFsolid/GET Topic (solid-bcf-middleware)
+
 The following route exposes a Topic (id: 8424cd01-b779-4927-ae23-b16e335b265) of a specific Project (id: 9ea20d1d-387b-4fb5-8962-f014a79e9d44):
 
 ```GET http://localhost:3080/bcf/3.0/projects/9ea20d1d-387b-4fb5-8962-f014a79e9d44/topics/8424cd01-b779-4927-ae23-b16e335b265```
 
-If authenticated well, the server responds with the following JSON-LD document:
+If authenticated well, the server discovers the other stakeholders in the project, fetches the data from the corresponding Pods and responds with the following JSON-LD document:
 
 ```
 {
