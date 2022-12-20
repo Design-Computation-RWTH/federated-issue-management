@@ -1,5 +1,5 @@
 # Proof-of-concept for Federated Interoperable Issue Management
-Welcome! This repository contains a proof-of-concept for federated, interoperable Issue Management in the Architecture, Engineering, Construction and Operations (AECO) industry. This repository contains sub-repositories for the Solid Server and the Middleware. To clone these, use the following command: `git clone https://github.com/Design-Computation-RWTH/federated-issue-management.git --recurse-submodules`
+Welcome! This repository contains a proof-of-concept for federated, interoperable Issue Management in the Architecture, Engineering, Construction and Operations (AECO) industry. This repository contains sub-repositories for the Solid Server and the Middleware. To clone these, use the following command: `git clone  --recurse-submodules https://github.com/Design-Computation-RWTH/federated-issue-management.git`
 
 This setup has been tested on Windows.
 
