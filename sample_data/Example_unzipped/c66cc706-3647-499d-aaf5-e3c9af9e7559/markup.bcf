@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Markup>
+	<Topic Guid="c66cc706-3647-499d-aaf5-e3c9af9e7559" TopicType="OpeningsAndRecesses" TopicStatus="Open">
+		<Title> Please check this opening</Title>
+		<Priority>Major</Priority>
+		<Index>1</Index>
+		<Labels>Architecture</Labels>
+		<Labels>Technology</Labels>
+		<CreationDate>2022-12-12T13:45:30</CreationDate>
+		<CreationAuthor>https://pod.mep-engineer.eu/profile/card#me</CreationAuthor>
+		<ModifiedDate>2022-12-12T13:45:30</ModifiedDate>
+		<ModifiedAuthor>https://pod.mep-engineer.eu/profile/card#me</ModifiedAuthor>
+		<DueDate>2022-12-24T18:00:00</DueDate>
+		<AssignedTo>https://pod.architect.eu/profile/card#me</AssignedTo>
+		<Description>There is no opening for the pipes in the slab. </Description>
+	</Topic>
+	<Comment Guid="ae83596b-2eed-4f49-8f44-0b7efccfae1a">
+		<Date>2022-12-12T13:45:30</Date>
+		<Author>https://pod.mep-engineer.eu/profile/card#me</Author>
+		<Comment>Please provide opening in the slab</Comment>
+		<Viewpoint Guid="3513a778-218b-4d17-b634-87707eacba66" />
+		<ModifiedDate>2022-12-12T13:45:30</ModifiedDate>
+		<ModifiedAuthor>https://pod.mep-engineer.eu/profile/card#me</ModifiedAuthor>
+	</Comment>
+	<Viewpoints Guid="3513a778-218b-4d17-b634-87707eacba66">
+		<Viewpoint>viewpoint.bcfv</Viewpoint>
+		<Snapshot>snapshot.png</Snapshot>
+	</Viewpoints>
+</Markup>

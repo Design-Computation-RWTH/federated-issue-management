@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Markup>
+	<Header>
+		<File IfcProject="344O7vICcwH8qAEnwJDjSU" isExternal="true">
+			<Filename>Ohne Titel</Filename>
+			<Date>2023-05-31T08:10:58Z</Date>
+		</File>
+	</Header>
+	<Topic Guid="C66CC706-3647-499D-AAF5-E3C9AF9E7559" TopicType="OpeningsAndRecesses" TopicStatus="Closed">
+		<CreationDate>2022-12-12T13:45:30</CreationDate>
+		<CreationAuthor>https://pod.mep-engineer.eu/profile/card#me</CreationAuthor>
+		<DueDate>2022-12-24T18:00:00</DueDate>
+		<Title> Please check this opening</Title>
+		<Priority>Major</Priority>
+		<Labels>Architecture</Labels>
+		<Labels>Technology</Labels>
+		<ModifiedDate>2022-12-13T12:14:15</ModifiedDate>
+		<ModifiedAuthor>https://pod.architect.eu/profile/card#me</ModifiedAuthor>
+		<AssignedTo>https://pod.mep-engineer.eu/profile/card#me</AssignedTo>
+		<Description>There is no opening for the pipes in the slab. </Description>
+	</Topic>
+	<Comment Guid="AE83596B-2EED-4F49-8F44-0B7EFCCFAE1A">
+		<ModifiedDate>2022-12-12T13:45:30</ModifiedDate>
+		<ModifiedAuthor>https://pod.mep-engineer.eu/profile/card#me</ModifiedAuthor>
+		<Date>2022-12-12T13:45:30</Date>
+		<Author>https://pod.mep-engineer.eu/profile/card#me</Author>
+		<Comment>Please provide opening in the coming update</Comment>
+	</Comment>
+	<Comment Guid="BAC4A7AF-4089-3945-A8E3-66D6FCCCC41F">
+		<ModifiedDate>2023-05-31T08:01:14Z</ModifiedDate>
+		<ModifiedAuthor>https://pod.architect.eu/profile/card#me</ModifiedAuthor>
+		<Date>2022-12-13T12:14:15</Date>
+		<Author>https://pod.architect.eu/profile/card#me</Author>
+		<Comment>Slab was modfied and opening is now provided</Comment>
+	</Comment>
+	<Viewpoints Guid="3513A778-218B-4D17-B634-87707EACBA66">
+		<Viewpoint>viewpoint.bcfv</Viewpoint>
+		<Snapshot>snapshot.png</Snapshot>
+		<Index>1</Index>
+	</Viewpoints>
+	<Viewpoints Guid="FE76B518-A834-B848-9A92-500EE1FF5DC9">
+		<Viewpoint>viewpoint_FE76B518-A834-B848-9A92-500EE1FF5DC9.bcfv</Viewpoint>
+		<Snapshot>Snapshot_2.png</Snapshot>
+		<Index>2</Index>
+	</Viewpoints>
+</Markup>

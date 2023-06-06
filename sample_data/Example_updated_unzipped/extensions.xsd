@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<schema>
+	<redefine schemaLocation="markup.xsd">
+		<simpleType name="Priority">
+			<restriction base="Priority">
+				<enumeration value="Kritisch"/>
+				<enumeration value="Hoch"/>
+				<enumeration value="Mittel"/>
+				<enumeration value="Niedrig"/>
+				<enumeration value="Wartestatus"/>
+				<enumeration value="Major"/>
+			</restriction>
+		</simpleType>
+		<simpleType name="TopicStatus">
+			<restriction base="TopicStatus">
+				<enumeration value="Offen"/>
+				<enumeration value="Zugewiesen"/>
+				<enumeration value="Gelöst"/>
+				<enumeration value="Geschlossen"/>
+				<enumeration value="Active"/>
+			</restriction>
+		</simpleType>
+		<simpleType name="TopicType">
+			<restriction base="TopicType">
+				<enumeration value="Anfrage"/>
+				<enumeration value="Anmerkung"/>
+				<enumeration value="Vorschlag"/>
+				<enumeration value="Anforderung"/>
+				<enumeration value="Konflikt"/>
+				<enumeration value="Modellierungs-Issue"/>
+				<enumeration value="Clash"/>
+			</restriction>
+		</simpleType>
+		<simpleType name="TopicLabel">
+			<restriction base="TopicLabel">
+				<enumeration value="Architecture"/>
+				<enumeration value="Technology"/>
+			</restriction>
+		</simpleType>
+	</redefine>
+</schema>
